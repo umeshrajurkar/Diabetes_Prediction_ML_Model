@@ -1,0 +1,79 @@
+h1{
+    color:saddlebrown;
+    text-align: center;
+}
+.myform{
+    width: 450px;
+    height: 307;
+    background-color: whitesmoke;
+    margin-left: 285;
+    padding-top: 43;
+}
+h4{
+    text-align: center;
+}
+input{
+    margin-left: 146;
+}
+select{
+        display: block !important;
+    margin-left: 181;
+    width: 69;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+h5{
+    text-align: center;
+    font-size: 20px;
+}
+p{
+    color: white;
+font-size: 23;
+width: 470;
+text-align: center;
+padding-top: 101;
+padding-left: 316;
+}
+.outerdiv{
+    height: 341px;
+    width: 100%;
+    background-color:saddlebrown;
+
+}
+#mainhead{
+	text-align:center;
+	color:brown;;
+}
+#li1{
+	float:right;
+	padding-right:20px
+}
+li{
+	float:left;
+}
+#nav{
+
+    height: 36;
+    width: 100%;
+    background: forestgreen;
+    color: white;
+    margin: 0;
+    padding: 0;
+	margin:0;
+    font-size: 22px;
+}
+footer{
+	background: brown;
+   color: white;
+   font-size: 20;
+   text-align: center;
+margin-top: 111px;
+   padding: 12;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}

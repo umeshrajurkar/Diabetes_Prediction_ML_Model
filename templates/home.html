@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+  <title>Home</title>
+{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="{{ url_for("static",filename='color.css') }}">
+{% endblock %}
+{% block body %}
+<form class="myform" action="/" method="POST">
+    <h4>Enter Fasting Sugar Rate</h4>
+    <input type="text" name="FS">
+    <h4>You Have Frequent Urination</h4>
+   <select name="FU">
+       <option value="1">Yes</option>
+       <option value="0">No</option>
+   </select>
+    <button class="btn" type="submit">POST IT</button>
+{% if data: %}
+    <h5 style="color:{{data[1]}}">
+    {{ data[0] }}
+    </h5>
+{% endif %}
+</form>
+{% endblock %}
